@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/cs401_hw2_pagerank/META"
+  "_build/install/default/lib/cs401_hw2_pagerank/dune-package"
+  "_build/install/default/lib/cs401_hw2_pagerank/opam"
+]
+doc: [
+  "_build/install/default/doc/cs401_hw2_pagerank/README.md"
+]

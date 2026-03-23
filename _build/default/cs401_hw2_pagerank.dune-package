@@ -1,0 +1,4 @@
+(lang dune 3.21)
+(name cs401_hw2_pagerank)
+(sections (lib .) (doc ../../doc/cs401_hw2_pagerank))
+(files (lib (META dune-package opam)) (doc (README.md)))

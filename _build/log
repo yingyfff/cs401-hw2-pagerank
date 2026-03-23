@@ -1,0 +1,91 @@
+# C:\Users\12059\AppData\Local\opam\default\bin\dune.exe test
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location:
+# C:\Users\12059\AppData\Local\Microsoft\Windows\INetCache\dune\db
+# Workspace root:
+# "C:\\Users\\12059\\Desktop\\paradigm\\HW2\\cs401_hw2_pagerank"
+# Auto-detected concurrency: 20
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ C:\Users\12059\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\12059\AppData\Local\Temp\dune_fef9ba_output
+$ (cd _build/default/test/getBacklinks && .\getBacklinks.exe)
+> Testing `getBacklinks Tests'.
+> This run has ID `787RQ5UF'.
+>
+>   [OK]          getBacklinks_1          0   Check backlinks for g1.
+>   [OK]          getBacklinks_2          0   Check backlinks for g2.
+>
+> Full test results in `C:\Users\12059\Desktop\paradigm\HW2\cs401_hw2_pagerank\_build\default\test\getBacklinks\_build\_tests\787RQ5UF'.
+> Test Successful in 0.001s. 2 tests run.
+$ (cd _build/default/test/initPageRank && .\initPageRank.exe)
+> Testing `initPageRank Tests'.
+> This run has ID `GHHWAZFZ'.
+>
+>   [OK]          initPageRank          0   Check initial pagerank.
+>
+> Full test results in `C:\Users\12059\Desktop\paradigm\HW2\cs401_hw2_pagerank\_build\default\test\initPageRank\_build\_tests\GHHWAZFZ'.
+> Test Successful in 0.001s. 1 test run.
+$ (cd _build/default/test/iterPageRank && .\iterPageRank.exe)
+> Testing `iterPageRank Tests'.
+> This run has ID `J16PSFV5'.
+>
+>   [OK]          iterPageRank_1          0   Test iterative pagerank on g1/pr1.
+>   [OK]          iterPageRank_2          0   Test iterative pagerank on g2/pr2.
+>
+> Full test results in `C:\Users\12059\Desktop\paradigm\HW2\cs401_hw2_pagerank\_build\default\test\iterPageRank\_build\_tests\J16PSFV5'.
+> Test Successful in 0.040s. 2 tests run.
+$ (cd _build/default/test/numLinks && .\numLinks.exe)
+> Testing `numLink Tests'.
+> This run has ID `1O0A1QIE'.
+>
+>   [OK]          numLinks_1          0   Test numLinks for graph g1.
+>   [OK]          numLinks_2          0   Test numLinks for graph g2.
+>
+> Full test results in `C:\Users\12059\Desktop\paradigm\HW2\cs401_hw2_pagerank\_build\default\test\numLinks\_build\_tests\1O0A1QIE'.
+> Test Successful in 0.001s. 2 tests run.
+$ (cd _build/default/test/numPages && .\numPages.exe)
+> Testing `NumPages Tests'.
+> This run has ID `Q46Q1YWA'.
+>
+>   [OK]          numPages_1          0   Test numPages for graph g1.
+>   [OK]          numPages_2          0   Test numPages for graph g2.
+>
+> Full test results in `C:\Users\12059\Desktop\paradigm\HW2\cs401_hw2_pagerank\_build\default\test\numPages\_build\_tests\Q46Q1YWA'.
+> Test Successful in 0.001s. 2 tests run.
+$ (cd _build/default/test/rankPages && .\rankPages.exe)
+> Testing `rankPages Tests'.
+> This run has ID `GYY4NR1C'.
+>
+>   [OK]          rankPages_1          0   Test rankPages for page rank pr1.
+>   [OK]          rankPages_2          0   Test rankPages for page rank pr2.
+>
+> Full test results in `C:\Users\12059\Desktop\paradigm\HW2\cs401_hw2_pagerank\_build\default\test\rankPages\_build\_tests\GYY4NR1C'.
+> Test Successful in 0.001s. 2 tests run.
+$ (cd _build/default/test/stepPageRank && .\stepPageRank.exe)
+> Testing `stepPageRank tests'.
+> This run has ID `21Q8PIFW'.
+>
+>   [OK]          stepPageRank_1          0   Test first step for g1/pr1.
+>   [OK]          stepPageRank_1          1   Test second step for g1/pr1.
+>   [OK]          stepPageRank_2          0   Test first step for g2/pr2.
+>   [OK]          stepPageRank_2          1   Test second step for g2/pr2.
+>   [OK]          stepPageRank_2          2   Test third step for g2/pr2.
+>
+> Full test results in `C:\Users\12059\Desktop\paradigm\HW2\cs401_hw2_pagerank\_build\default\test\stepPageRank\_build\_tests\21Q8PIFW'.
+> Test Successful in 0.082s. 5 tests run.
+$ (cd _build/default/test/sumToOne && .\sumToOne.exe)
+> Testing `sumToOne Test'.
+> This run has ID `LBQ08EY2'.
+>
+>   [OK]          sumToOne          0   Check sum of PageRanks after step.
+>
+> Full test results in `C:\Users\12059\Desktop\paradigm\HW2\cs401_hw2_pagerank\_build\default\test\sumToOne\_build\_tests\LBQ08EY2'.
+> Test Successful in 0.001s. 1 test run.
